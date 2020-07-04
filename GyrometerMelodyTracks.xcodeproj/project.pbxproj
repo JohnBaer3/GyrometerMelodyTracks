@@ -13,6 +13,7 @@
 		CB48AC1F24AD2DF300E0F47B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB48AC1D24AD2DF300E0F47B /* Main.storyboard */; };
 		CB48AC2124AD2DF700E0F47B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB48AC2024AD2DF700E0F47B /* Assets.xcassets */; };
 		CB48AC2424AD2DF700E0F47B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB48AC2224AD2DF700E0F47B /* LaunchScreen.storyboard */; };
+		CB48AC2D24AD549A00E0F47B /* drum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB48AC2C24AD549A00E0F47B /* drum.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CB48AC2024AD2DF700E0F47B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB48AC2324AD2DF700E0F47B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB48AC2524AD2DF700E0F47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB48AC2C24AD549A00E0F47B /* drum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drum.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,24 @@
 		CB48AC1624AD2DF300E0F47B /* GyrometerMelodyTracks */ = {
 			isa = PBXGroup;
 			children = (
-				CB48AC1724AD2DF300E0F47B /* AppDelegate.swift */,
-				CB48AC1924AD2DF300E0F47B /* SceneDelegate.swift */,
 				CB48AC1B24AD2DF300E0F47B /* ViewController.swift */,
 				CB48AC1D24AD2DF300E0F47B /* Main.storyboard */,
+				CB48AC2B24AD3A5D00E0F47B /* SupportingFiles */,
 				CB48AC2024AD2DF700E0F47B /* Assets.xcassets */,
 				CB48AC2224AD2DF700E0F47B /* LaunchScreen.storyboard */,
+				CB48AC2C24AD549A00E0F47B /* drum.mp3 */,
 				CB48AC2524AD2DF700E0F47B /* Info.plist */,
 			);
 			path = GyrometerMelodyTracks;
+			sourceTree = "<group>";
+		};
+		CB48AC2B24AD3A5D00E0F47B /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				CB48AC1724AD2DF300E0F47B /* AppDelegate.swift */,
+				CB48AC1924AD2DF300E0F47B /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +138,7 @@
 			files = (
 				CB48AC2424AD2DF700E0F47B /* LaunchScreen.storyboard in Resources */,
 				CB48AC2124AD2DF700E0F47B /* Assets.xcassets in Resources */,
+				CB48AC2D24AD549A00E0F47B /* drum.mp3 in Resources */,
 				CB48AC1F24AD2DF300E0F47B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +299,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MYKB7T756Z;
 				INFOPLIST_FILE = GyrometerMelodyTracks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +318,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MYKB7T756Z;
 				INFOPLIST_FILE = GyrometerMelodyTracks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
